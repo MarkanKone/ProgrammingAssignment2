@@ -1,5 +1,5 @@
 
-Programming Assignment2: Caching the Inverse of a Matrix
+##Programming Assignment2: Caching the Inverse of a Matrix
 
 In this assignment our task is to write a pair of functions that
 calculates and caches the inverse of a matrix. For this assignment, we are told to assume that the matrix supplied is always invertible.
