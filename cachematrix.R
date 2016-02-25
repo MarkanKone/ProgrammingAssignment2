@@ -2,7 +2,7 @@
 
 In this assignment our task is to write a pair of functions that calculates and caches the inverse of a matrix. For this assignment, we are told to assume that the matrix supplied is always invertible.
 
-The first function called 'makeCacheMatri' creates a special "matrix" object that can cache its inverse.
+The first function called 'makeCacheMatrix' creates a special "matrix" object that can cache its inverse.
 
 
 makeCacheMatrix <- function(x = matrix()) {
