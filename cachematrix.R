@@ -1,8 +1,11 @@
-##Programming Assignment2: Caching the Inverse of a Matrix
+PROGRAMMING ASSIGNMENT 2: CACHING THE INVERSE OF A MATRIX
 
-In this assignment our task is to write a pair of functions that calculates and caches the inverse of a matrix. For this assignment, we are told to assume that the matrix supplied is always invertible.
+In this assignment our task is to write a pair of functions that calculates and 
+caches the inverse of a matrix. For this assignment, we are told to assume that
+the matrix supplied is always invertible.
 
-The first function called 'makeCacheMatrix' creates a special "matrix" object that can cache its inverse.
+The first function called 'makeCacheMatrix' creates a special "matrix" object that
+can cache its inverse.
 
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -19,7 +22,10 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-The second function 'cacheSolve' computes the inverse of the special "matrix" returned by makeCacheMatrix above. If the inverse has already been calculated (and the matrix has not changed), then 'cacheSolve' should retrieve the inverse from the cache. 
+The second function 'cacheSolve' computes the inverse of the special "matrix" 
+returned by makeCacheMatrix above. If the inverse has already been calculated
+(and the matrix has not changed), then 'cacheSolve' should retrieve the inverse
+from the cache. 
 
 cacheSolve <- function(x, ...) {
      inv <- x$getinverse()
